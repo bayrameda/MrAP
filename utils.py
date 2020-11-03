@@ -58,7 +58,7 @@ def estimate_params(edge_list, x, rel_to_scale = None, u_0 = None):
     if sum(known_pairs) > 1:
       x_pairs = x[edges[known_pairs]]
       if rel_to_scale is not None:
-        if p in rel_to_scale: eta[p], _, _, _ = stats.linregress(x_pairs[:,0], x_pairs[:,1])
+        if p in rel_to_scale: eta[p], _, _, _, _ = stats.linregress(x_pairs[:,0], x_pairs[:,1])
       diff_on_edges.append(x_pairs[:,1] - eta[p]*x_pairs[:,0])
       tau[p] = diff_on_edges[p].mean()
       omega[p] = diff_on_edges[p].var()
