@@ -7,3 +7,13 @@ Please check out the notebooks for the usage. The experiments are executed on ve
 
 # License
 MIT
+
+Please cite our paper if you use the code:
+```
+@article{bayram2020nodeattributecompletion,
+    title={Node Attribute Completion in Knowledge Graphs with Multi-Relational Propagation},
+    author={Eda Bayram and Alberto Garcia-Duran and Robert West},
+    journal={arXiv preprint arXiv:2011.05301},
+    year={2020}
+}
+```
