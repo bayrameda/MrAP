@@ -5,6 +5,9 @@ It requires the package [pytorch-scatter](https://pytorch-scatter.readthedocs.io
 
 Please check out the notebooks for the usage. The experiments are executed on version 1.6.0+cu101 of PyTorch and version 2.0.4 of PyTorch-scatter.
 
+# Data
+You can download the Knowledge Base data enriched with numerical node attributes ( FB15K-237, YAGO15K) from https://github.com/nle-ml/mmkb.
+
 # License
 MIT
 
